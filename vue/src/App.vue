@@ -10,7 +10,7 @@ const openSpotify = (spotifyUrl) => {
 const getSpotifyEmbedUrl = (spotifyUrl) => {
   try {
     const albumId = spotifyUrl.split('/').pop().split('?')[0];
-    return `https://open.spotify.com/embed/album/${albumId}?utm_source=generator&theme=0`;
+    return `https://open.spotify.com/embed/album/${albumId}?utm_source=generator`;
   } catch (error) {
     console.error('Error converting Spotify URL:', error);
     return '';
@@ -37,10 +37,10 @@ onMounted(async () => {
       <div class="gradient-bg-teal text-white rounded-2xl p-8 shadow-2xl">
         <h1 class="text-6xl font-black tracking-wider mb-4" style="font-family: 'Bebas Neue', sans-serif;">
           <img src="./assets/img/music-icon.webp" alt="Music" class="inline w-12 h-12 mr-4" />
-          THIS IS MY JAM.
+          JAMMING TO MY FAVES.
         </h1>
         <p class="text-xl text-white/90 font-medium">
-          A collection of my favorite albums from my top favorite artists. Enjoy the music!
+          A collection of my favorite albums from my top favorite artists. Listen to the full albums on Spotify!
         </p>
       </div>
 
