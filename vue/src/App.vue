@@ -35,9 +35,9 @@ onMounted(async () => {
     <div class="max-w-8xl mx-auto space-y-8">
       <!-- Header -->
       <div class="gradient-bg-teal text-white rounded-2xl p-8 shadow-2xl">
-        <h1 class="text-6xl font-black tracking-wider mb-4" style="font-family: 'Bebas Neue', sans-serif;">
-          <img src="./assets/img/music-icon.webp" alt="Music" class="inline w-12 h-12 mr-4" />
-          JAMMING TO MY FAVES.
+        <h1 class="text-6xl font-black mb-4 flex items-center">
+          <img src="./assets/img/music-icon.webp" alt="Music" class="inline w-12 h-12 mr-8" />
+          jamming to my faves.
         </h1>
         <p class="text-xl text-white/90 font-medium">
           A collection of my favorite albums from my top favorite artists. Listen to the full albums on Spotify!
